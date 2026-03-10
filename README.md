@@ -1,48 +1,79 @@
 # 🚀 AghavLabs
 
-AghavLabs — open-source tools, developer utilities, and experimental web projects.
+<p align="center">
+  <b>Open-source tools, developer utilities, and experimental web projects.</b>
+</p>
 
-🌐 Website  
-https://aghavlabs.github.io
-
----
-
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=AghavLabs&show_icons=true&theme=tokyonight)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AghavLabs&layout=compact&theme=tokyonight)
-
-![GitHub Streak](https://streak-stats.demolab.com/?user=AghavLabs&theme=tokyonight)
+<p align="center">
+  🌐 https://aghavlabs.github.io
+</p>
 
 ---
 
-## 🧰 Tools
+# 🧑‍💻 About
 
-AghavLabs builds free utilities and developer tools such as:
+AghavLabs builds simple, fast, and useful tools for developers and creators.
 
-- QR Code Generator
-- Password Generator
-- Image Tools
-- Text Tools
-- Encoding / Decoding Utilities
-- Developer Utilities
-
-More tools will be added regularly.
+Our mission is to create free online utilities that solve everyday technical tasks.
 
 ---
 
-## ⚡ Philosophy
+# 📊 GitHub Statistics
 
-AghavLabs follows three principles:
+<p align="center">
 
-- Build useful tools
-- Keep things simple
-- Share openly
+<img src="https://github-readme-stats.vercel.app/api?username=AghavLabs&show_icons=true&theme=radical&hide_border=true" height="165">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=AghavLabs&layout=compact&theme=radical&hide_border=true" height="165">
+
+</p>
 
 ---
 
-## 🛠 Tech Stack
+# 🔥 Contribution Streak
+
+<p align="center">
+
+<img src="https://streak-stats.demolab.com/?user=AghavLabs&theme=radical&hide_border=true">
+
+</p>
+
+---
+
+# 📈 Activity Graph
+
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=AghavLabs&theme=react-dark">
+
+</p>
+
+---
+
+# 🧰 Tools
+
+A growing collection of free tools:
+
+• QR Code Generator  
+• Password Generator  
+• Image Tools  
+• Text Utilities  
+• Encoding / Decoding Tools  
+• Developer Utilities  
+
+More tools will be added continuously.
+
+---
+
+# 🛠 Tech Stack
+
+<p>
+
+<img src="https://skillicons.dev/icons?i=html,css,js,github,git">
+
+</p>
+
+Built using:
 
 - HTML
 - CSS
@@ -53,30 +84,52 @@ All tools run directly in the browser.
 
 ---
 
-## 📂 Example Projects
+# 📂 Example Projects
 
 AghavLabs/qr-generator  
 AghavLabs/image-tools  
 AghavLabs/dev-utils  
-AghavLabs/password-generator  
+AghavLabs/password-generator
 
 ---
 
-## 🤝 Contributing
+# 📊 Repository Stats
+
+<p align="center">
+
+<img src="https://img.shields.io/github/stars/AghavLabs?style=for-the-badge">
+<img src="https://img.shields.io/github/forks/AghavLabs?style=for-the-badge">
+<img src="https://img.shields.io/github/issues/AghavLabs?style=for-the-badge">
+
+</p>
+
+---
+
+# 👀 Visitor Counter
+
+<p align="center">
+
+<img src="https://komarev.com/ghpvc/?username=AghavLabs&label=Profile%20Views&color=blue&style=flat">
+
+</p>
+
+---
+
+# 🤝 Contributing
 
 Ideas and improvements are welcome.
 
-If you have suggestions for tools or improvements, feel free to open an issue.
+If you have a suggestion for a tool or feature, feel free to open an issue.
 
 ---
 
-## 📜 License
+# 📜 License
 
 MIT License
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
 AghavLabs
 
