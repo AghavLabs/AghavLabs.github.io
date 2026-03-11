@@ -1,88 +1,110 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Xiaomi Bootloader Unlock Guide</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Xiaomi Bootloader Unlock Tool Guide</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<script>
+function copyText(id){
+let text=document.getElementById(id).innerText;
+navigator.clipboard.writeText(text);
+alert("Command copied");
+}
+</script>
+
 </head>
 
-<body>
+<body class="bg-light">
 
-<h1>Xiaomi Bootloader Unlock Tool Guide</h1>
+<div class="container py-5">
 
-<p>This guide explains how to install and run the Xiaomi Bootloader Unlock Tool using Termux.</p>
+<div class="text-center mb-5">
+<h1 class="fw-bold">Xiaomi Bootloader Unlock Tool</h1>
+<p class="text-muted">Step-by-Step Installation Guide</p>
+</div>
 
-<hr>
+<div class="card mb-4 shadow-sm">
+<div class="card-body">
+<h4>Step 1 — Install Required App</h4>
+<p>Download and install <b>Termux</b> from F-Droid:</p>
 
-<h2>Step 1 — Install Termux</h2>
+<pre id="link1">https://f-droid.org/packages/com.termux/</pre>
+<button class="btn btn-primary btn-sm" onclick="copyText('link1')">Copy Link</button>
 
-<p>Download and install Termux from F-Droid:</p>
+<p class="mt-3">Open the Termux app after installation.</p>
+</div>
+</div>
 
-<pre>
-https://f-droid.org/packages/com.termux/
-</pre>
-
-<p>Install the app and open it.</p>
-
-<hr>
-
-<h2>Step 2 — Update Termux</h2>
-
+<div class="card mb-4 shadow-sm">
+<div class="card-body">
+<h4>Step 2 — Update Termux</h4>
 <p>Run the following command:</p>
 
-<pre>
-pkg update && pkg upgrade -y
-</pre>
+<pre id="cmd1">pkg update && pkg upgrade -y</pre>
+<button class="btn btn-primary btn-sm" onclick="copyText('cmd1')">Copy Command</button>
 
-<hr>
+</div>
+</div>
 
-<h2>Step 3 — Install Unlock Tool</h2>
+<div class="card mb-4 shadow-sm">
+<div class="card-body">
+<h4>Step 3 — Install Unlock Tool</h4>
 
-<p>Paste this command in Termux:</p>
+<p>Paste this command inside Termux:</p>
 
-<pre>
-curl -fsSL https://aghavlabs.github.io/BootloaderUnlockXiaomi/install.sh | bash
-</pre>
+<pre id="cmd2">curl -fsSL https://aghavlabs.github.io/BootloaderUnlockXiaomi/install.sh | bash</pre>
+<button class="btn btn-primary btn-sm" onclick="copyText('cmd2')">Copy Command</button>
 
-<hr>
+</div>
+</div>
 
-<h2>Step 4 — Run the Tool</h2>
+<div class="card mb-4 shadow-sm">
+<div class="card-body">
+<h4>Step 4 — Start the Tool</h4>
 
 <p>After installation run:</p>
 
-<pre>
-unlock
-</pre>
+<pre id="cmd3">unlock</pre>
+<button class="btn btn-primary btn-sm" onclick="copyText('cmd3')">Copy Command</button>
 
-<hr>
+</div>
+</div>
 
-<h2>Step 5 — Login to Mi Account</h2>
-
-<p>The tool will ask for:</p>
-
-<ul>
-<li>Mi Account ID</li>
-<li>Mi Account Password</li>
-</ul>
-
-<p>Enter the Mi account that is linked to your Xiaomi device.</p>
-
-<hr>
-
-<h2>Important Notes</h2>
+<div class="card mb-4 shadow-sm">
+<div class="card-body">
+<h4>Step 5 — Login to Mi Account</h4>
 
 <ul>
-<li>Your Mi account must be older than 30 days.</li>
-<li>Use the same account that is logged into your Xiaomi phone.</li>
-<li>If unlock quota is reached, try again later.</li>
+<li>Enter your Mi Account ID</li>
+<li>Enter your Mi Account Password</li>
+<li>Use the same account logged into your Xiaomi phone</li>
 </ul>
 
-<hr>
+</div>
+</div>
 
-<p>Project Page:</p>
+<div class="card mb-4 shadow-sm">
+<div class="card-body">
+<h4>Important Notes</h4>
 
-<pre>
-https://aghavlabs.github.io/BootloaderUnlockXiaomi/
-</pre>
+<ul>
+<li>Mi account must be older than 30 days</li>
+<li>Your device must be linked to the Mi account</li>
+<li>Leave Termux open if the tool is waiting for quota reset</li>
+<li>Unlock permission depends on Xiaomi server approval</li>
+</ul>
+
+</div>
+</div>
+
+<div class="text-center mt-5">
+<p class="text-muted">BootloaderUnlockXiaomi Project</p>
+</div>
+
+</div>
 
 </body>
 </html>
