@@ -17,10 +17,10 @@ mkdir -p $HOME/.miunlock
 
 echo "[•] Downloading unlock tool..."
 
-curl -L https://tft.rf.gd/miunlock.py -o $HOME/.miunlock/miunlock.py
+curl -fsSL https://aghavlabs.github.io/BootloaderUnlockXiaomi/unlock.py -o $HOME/.miunlock/unlock.py
 
-if [ ! -f "$HOME/.miunlock/miunlock.py" ]; then
-echo "Download failed"
+if [ ! -f "$HOME/.miunlock/unlock.py" ]; then
+echo "[✗] Download failed"
 exit 1
 fi
 
@@ -28,7 +28,7 @@ echo "[•] Creating command..."
 
 cat > $PREFIX/bin/@miunlock << 'EOF'
 #!/data/data/com.termux/files/usr/bin/bash
-python $HOME/.miunlock/miunlock.py
+python $HOME/.miunlock/unlock.py "$@"
 EOF
 
 chmod +x $PREFIX/bin/@miunlock
@@ -38,5 +38,5 @@ echo "====================================="
 echo " Install Complete"
 echo "====================================="
 echo ""
-echo "Run tool using:"
+echo "Run tool:"
 echo "@miunlock"
