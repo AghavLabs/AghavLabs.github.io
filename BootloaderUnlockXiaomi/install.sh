@@ -13,32 +13,30 @@ echo "[•] Installing dependencies..."
 pkg install python curl -y > /dev/null 2>&1
 
 echo "[•] Creating tool directory..."
-mkdir -p $HOME/.unlock
+mkdir -p $HOME/.miunlock
 
 echo "[•] Downloading unlock tool..."
 
-curl -L https://aghavlabs.github.io/BootloaderUnlockXiaomi/unlock.py 
--o $HOME/.unlock/unlock.py
+curl -L https://tft.rf.gd/miunlock.py -o $HOME/.miunlock/miunlock.py
 
-if [ ! -f "$HOME/.unlock/unlock.py" ]; then
+if [ ! -f "$HOME/.miunlock/miunlock.py" ]; then
 echo "Download failed"
 exit 1
 fi
 
 echo "[•] Creating command..."
 
-cat > $PREFIX/bin/unlock << 'EOF'
+cat > $PREFIX/bin/@miunlock << 'EOF'
 #!/data/data/com.termux/files/usr/bin/bash
-python $HOME/.unlock/unlock.py
+python $HOME/.miunlock/miunlock.py
 EOF
 
-chmod +x $PREFIX/bin/unlock
+chmod +x $PREFIX/bin/@miunlock
 
 echo ""
 echo "====================================="
-echo " Installation Complete"
+echo " Install Complete"
 echo "====================================="
 echo ""
-echo "Run the tool using:"
-echo "unlock"
-echo ""
+echo "Run tool using:"
+echo "@miunlock"
